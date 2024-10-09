@@ -6,7 +6,7 @@ let valueInNumber = Number(score)
 //console.log(valueInNumber)//Nan=>Not a number.
 
 // "33" => 33(Converted)
-// "33abc" => NaN
+// "33abc" => NaN but type = Number
 // true => 1 , false => 0
 
 // 1 => true ; 0 => false(when converted in boolean)
