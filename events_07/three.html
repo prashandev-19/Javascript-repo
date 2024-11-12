@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript with youtube</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+</body>
+<script>
+    let setTime;
+    document.querySelector('#start').addEventListener('click' , function(){
+         setTime = setInterval(function(){
+            console.log("Start button pushed!!");
+        } , 1000);
+    });
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(setTime);
+    });
+
+</script>
+</html>
